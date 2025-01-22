@@ -53,7 +53,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <template #heading>爱好</template>
     羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
     以及写前端和提交Commit，这些都能让我有成就感<br/>
-    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/><a href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
+    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/><a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
   </WelcomeItem> 
   <Footer/>
 </template>
