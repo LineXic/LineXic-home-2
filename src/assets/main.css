@@ -1,0 +1,40 @@
+/* 导入外部CSS文件 base.css，通常用于引入基础样式 */
+@import './base.css';
+
+/* 定义ID为 app 的元素的样式 */
+#app {
+  max-width: 1280px; /* 设置最大宽度为1280像素 */
+  margin: 0 auto; /* 水平居中 */
+  padding: 2rem; /* 内边距为2rem */
+  font-weight: normal; /* 字体粗细为正常 */
+}
+
+/* 定义所有 <a> 标签和类名为 green 的元素的样式 */
+a,
+.txt {
+  text-decoration: none; /* 去除下划线 */
+  color: hsla(226, 32%, 42%, 471.47); /* 设置文字颜色为#48588c */
+  transition: 0.4s; /* 设置过渡效果，持续时间为0.4秒 */
+  padding: 3px; /* 内边距为3像素 */
+}
+
+/* 在支持悬停效果的设备上定义样式 */
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2); /* 悬停时背景颜色变为半透明绿色 */
+  }
+}
+
+/* 在屏幕宽度大于或等于1024像素时定义样式 */
+@media (min-width: 1024px) {
+  body {
+    display: flex; /* 使用弹性盒子布局 */
+    place-items: center; /* 内容在水平和垂直方向上都居中 */
+  }
+
+  #app {
+    display: grid; /* 使用网格布局 */
+    grid-template-columns: 1fr 1fr; /* 定义两列，每列宽度相等 */
+    padding: 0 2rem; /* 左右内边距为2rem，上下内边距为0 */
+  }
+}
