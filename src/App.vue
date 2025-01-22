@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
  <img class="w-24 h-24 rounded-full mx-auto" src="@/assets/avatar.webp"/>
 <br/>
     <div class="wrapper">  
- <HelloWorld msg="LineXic"/><br/>
+ <HelloWorld msg="LineXic"/>
       <p class="text-slate-500 hover:text-blue-600 text-center">一珊一珊亮晶晶</p><br/>
       <Header /> 
     </div>
