@@ -1,5 +1,6 @@
 <template>
-    <el-breadcrumb separator="/">
+    <el-breadcrumb style="display:flex;
+justify-content:center;" separator="/">
     <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
     <el-breadcrumb-item>
       <a href="https://linexic.top">博客</a>
