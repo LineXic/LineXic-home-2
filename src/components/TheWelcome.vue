@@ -18,16 +18,6 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     来自中国河内的一名高中学生，机缘巧合之下我遇到了编码和社区论坛并在这条路上越走越远。。。<br/>
     一直在折腾项目俗话说「生命不息，折腾不止」嘛，本站使用Vue搭建同时也在学习关于Vue的知识<br/>
     </p>
-  </WelcomeItem>
- 
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>爱好</template>
-    羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
-    以及写前端和提交Commit，这些都能让我有成就感<br/>
-    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/><a href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
   </WelcomeItem> 
    <WelcomeItem>
     <template #icon>
@@ -56,6 +46,14 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 <p class="text-gray-600">正在学习</p>
   </div><br/>
   </WelcomeItem>
-
+ <WelcomeItem>
+    <template #icon>
+      <SupportIcon />
+    </template>
+    <template #heading>爱好</template>
+    羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
+    以及写前端和提交Commit，这些都能让我有成就感<br/>
+    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/><a href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
+  </WelcomeItem> 
   <Footer/>
 </template>
