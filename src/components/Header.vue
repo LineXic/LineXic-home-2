@@ -1,4 +1,5 @@
 <template>
+    <p class="text-slate-500 hover:text-blue-600 text-center">一珊一珊亮晶晶</p><br/>
     <el-breadcrumb style="display:flex;
 justify-content:center;" separator="/">
     <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
