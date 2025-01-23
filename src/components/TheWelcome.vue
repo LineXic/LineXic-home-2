@@ -18,12 +18,26 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     来自中国河内的一名高中学生，机缘巧合之下我遇到了编码和社区论坛并在这条路上越走越远。。。<br/>
     一直在折腾项目俗话说「生命不息，折腾不止」嘛，本站使用Vue搭建同时也在学习关于Vue的知识<br/>
     </p>
-  </WelcomeItem> 
-   <WelcomeItem>
+  </WelcomeItem>    <WelcomeItem>
     <template #icon>
       <SkillIcon />
     </template>
-    <template #heading>技术/学习中</template>
+ <WelcomeItem>
+    <template #icon>
+      <SupportIcon />
+    </template>
+    <template #heading>爱好</template>
+    羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
+    以及写前端和提交Commit，这些都能让我有成就感<br/>
+    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/>
+   <li> 
+    <a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
+    </li>
+    <li> 
+    <a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/23/hui-mie/">读法捷耶夫《毁灭》</a>
+    </li>
+  </WelcomeItem> 
+      <template #heading>技术/学习中</template>
 <div class=" rounded-lg shadow-md p-4 text-center">
 <svg width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z"/></svg>
 <h3 class="text-xl font-semibold mb-2">Vue</h3>
@@ -44,16 +58,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 <svg width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
 <h3 class="text-xl font-semibold mb-2">JavaScript</h3>
 <p class="text-gray-600">正在学习</p>
-  </div><br/>
+  </div>
   </WelcomeItem>
- <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>爱好</template>
-    羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
-    以及写前端和提交Commit，这些都能让我有成就感<br/>
-    闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/><a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/19/wo-yu-di-tan/">读史铁生《我与地坛》</a>
-  </WelcomeItem> 
   <Footer/>
 </template>
