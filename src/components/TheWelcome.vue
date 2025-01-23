@@ -18,10 +18,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     来自中国河内的一名高中学生，机缘巧合之下我遇到了编码和社区论坛并在这条路上越走越远。。。<br/>
     一直在折腾项目俗话说「生命不息，折腾不止」嘛，本站使用Vue搭建同时也在学习关于Vue的知识<br/>
     </p>
-  </WelcomeItem>    <WelcomeItem>
-    <template #icon>
-      <SkillIcon />
-    </template>
+  </WelcomeItem>      
  <WelcomeItem>
     <template #icon>
       <SupportIcon />
@@ -36,7 +33,11 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <li> 
     <a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/23/hui-mie/">读法捷耶夫《毁灭》</a>
     </li>
-  </WelcomeItem> 
+  </WelcomeItem>
+  <WelcomeItem>
+    <template #icon>
+      <SkillIcon />
+    </template> 
       <template #heading>技术/学习中</template>
 <div class=" rounded-lg shadow-md p-4 text-center">
 <svg width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z"/></svg>
