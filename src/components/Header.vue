@@ -7,7 +7,7 @@ justify-content:center;" separator="/">
       <a href="https://linexic.top">博客</a>
     </el-breadcrumb-item>
     <el-breadcrumb-item>  
-    <a href="https://linexic.top">掘金</a>
+    <a href="https://juejin.cn/user/917459279025964">掘金</a>
     </el-breadcrumb-item>
     <el-breadcrumb-item>      
     <a href="https://github.com/LineXic">Github</a>
