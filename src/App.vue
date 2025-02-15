@@ -5,8 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 <template>
   <header>
- <img class="w-24 h-24 rounded-full mx-auto" src="@/assets/avatar.webp"/>
-<br/>
     <div class="wrapper">  
  <HelloWorld msg="LineXic"/>      
       <Header /> 
