@@ -1,8 +1,7 @@
 <template>
-  <div>
+    <div class="min-h-screen flex flex-col justify-center items-center">
     <p class="text-slate-500 hover:text-blue-600 text-center mb-4">一珊一珊亮晶晶</p>
-    
-    <el-breadcrumb separator="/" class="flex justify-center">
+      <el-breadcrumb separator="/" class="flex justify-center">
       <el-breadcrumb-item :to="{ path: '/' }">主页</el-breadcrumb-item>
       <el-breadcrumb-item>
         <a href="https://linexic.top" target="_blank" rel="noopener noreferrer">博客</a>
