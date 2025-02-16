@@ -15,8 +15,8 @@
     </el-breadcrumb-item>
     <el-breadcrumb-item>
       <a href="https://github.com/LineXic" target="_blank" rel="noopener noreferrer">Github</a>
-    </el-breadcrumb-item>
-  </el-breadcrumb>
-    
+      </el-breadcrumb-item>
+      </el-breadcrumb>
+  <el-icon><star-filled /></el-icon>
 </div>
 </template>
