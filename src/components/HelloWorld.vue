@@ -11,7 +11,7 @@ defineProps({
 <template>
   <div class="greetings">
     <!-- 标题部分，使用内联样式设置字体大小为 3rem -->
-    <h1 style="font-size: 3rem;" class="txt">{{msg}}</h1><br/>
+   
   </div>
 </template>
 

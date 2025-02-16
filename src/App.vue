@@ -2,13 +2,11 @@
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import { StarFilled } from '@element-plus/icons-vue'
 </script>
 <template>
   <header>
- <img class="w-24 h-24 rounded-full mx-auto" src="@/assets/avatar.webp"/>
-<br/>
-    <div class="wrapper">  
- <HelloWorld msg="LineXic"/>      
+    <div class="wrapper">    
       <Header /> 
     </div>
 
