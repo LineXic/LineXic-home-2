@@ -35,12 +35,4 @@ h3 {
   text-align: center; /* 文本居中 */
 }
 
-/* 媒体查询，当屏幕宽度大于等于 1024px 时生效 */
-@media (min-width: 1024px) {
-  /* 在大屏幕上，将 .greetings 类中的 h1 和 h3 标签的文本对齐方式改为左对齐 */
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
 </style>
