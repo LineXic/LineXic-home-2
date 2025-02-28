@@ -18,12 +18,6 @@ a,
   padding: 3px; /* 内边距为3像素 */
 }
 
-/* 在支持悬停效果的设备上定义样式 */
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2); /* 悬停时背景颜色变为半透明绿色 */
-  }
-}
 
 /* 在屏幕宽度大于或等于1024像素时定义样式 */
 @media (min-width: 1024px) {
