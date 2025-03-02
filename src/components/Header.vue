@@ -1,4 +1,3 @@
-
 <template>
   <!-- 页面主容器：最小高度全屏，垂直居中布局 -->
   <div class="min-h-screen flex flex-col justify-center items-center">
@@ -41,8 +40,8 @@
 </template>
 
 <style scoped>
-/* SVG图标样式预留位 */
-svg {
-  /* 可在此添加图标动画效果 */
-}
+ /* 图片样式 */   
+ img {     
+  border: 2px solid #3498db;  
+   }
 </style>

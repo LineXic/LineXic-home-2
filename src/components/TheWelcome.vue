@@ -33,6 +33,10 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     <li> 
     <a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/01/23/hui-mie/">读法捷耶夫《毁灭》</a>
     </li>
+    <li>
+    <a style="color: hsla(226, 32%, 42%, 471.47);" href="https://linexic.top/2025/03/01/the-seven-day/">读余华《第七天》</a>
+    </li>
+   
   </WelcomeItem>
   <WelcomeItem>
     <template #icon>
