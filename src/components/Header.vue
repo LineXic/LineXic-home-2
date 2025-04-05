@@ -27,7 +27,11 @@
 
       <!-- 归档 -->
       <el-breadcrumb-item>
+<<<<<<< HEAD
         <a href="/views/archives" target="_blank" rel="noopener noreferrer">归档</a>
+=======
+         <a href="/archives" target="_blank" rel="noopener noreferrer">归档</a>
+>>>>>>> 157645045474d705c87641d2c414ae31657a0ffe
       </el-breadcrumb-item>
     </el-breadcrumb>
 

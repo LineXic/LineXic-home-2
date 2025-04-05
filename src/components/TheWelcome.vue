@@ -27,7 +27,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
     羽毛球🏸跑步🏃‍♂️以及在我这个网络小世界中折腾👨‍💻<br/>
     以及写前端和提交Commit，这些都能让我有成就感<br/>
     闲暇时会读书(之前)，最近又把这个爱好重拾起来了<br/>
-    <p><a href="/archives" class="text-blue-500 hover:underline">点击查看我的文章</a></p>.
+    <p><a href="/archives" class="text-blue-500 hover:underline">点击查看我的文章</a></p>
 </WelcomeItem>
   <WelcomeItem>
     <template #icon>
