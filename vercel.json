@@ -1,4 +1,4 @@
-{
 // https://vercel.com/docs/project-configuration
+{
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
