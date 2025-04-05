@@ -25,9 +25,9 @@
         <a href="https://juejin.cn/user/917459279025964" target="_blank" rel="noopener noreferrer">掘金</a>
       </el-breadcrumb-item>
 
-      <!-- GitHub个人主页 -->
+      <!-- 归档 -->
       <el-breadcrumb-item>
-        <a href="https://github.com/LineXic" target="_blank" rel="noopener noreferrer">Github</a>
+        <el-breadcrumb-item :to="{ path: '/archives' }">归档</el-breadcrumb-item>
       </el-breadcrumb-item>
     </el-breadcrumb>
 
