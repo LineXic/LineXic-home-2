@@ -12,12 +12,7 @@ const router = createRouter({
     },
     {
       path: '/archives',
-<<<<<<< HEAD
       name: 'archives',
-=======
-      name: '归档',
->>>>>>> 157645045474d705c87641d2c414ae31657a0ffe
-      component: ArchivesView,
     },
   ],
 })
