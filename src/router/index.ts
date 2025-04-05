@@ -11,8 +11,8 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/',
-      name: '归档',
+      path: '/archives',
+      name: 'archives',
       component: ArchivesView,
     },
   ],

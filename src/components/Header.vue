@@ -27,7 +27,7 @@
 
       <!-- 归档 -->
       <el-breadcrumb-item>
-        <el-breadcrumb-item :to="{ path: '/archives' }">归档</el-breadcrumb-item>
+        <a href="/views/archives" target="_blank" rel="noopener noreferrer">归档</a>
       </el-breadcrumb-item>
     </el-breadcrumb>
 
