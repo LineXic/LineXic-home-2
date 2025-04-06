@@ -34,7 +34,7 @@ const formatDate = (dateString) => {
 onMounted(async () => {
   try {
     const response = await axios.get('https://www.linexic.top/rss.xml')
-    articles.value = (await parseRSS(response.data)).slice(0, 10) // 显示最新10篇文章
+    articles.value = (await parseRSS(response.data)).slice(0, 50) // 显示最新10篇文章
   } catch (error) {
     console.error('获取RSS失败:', error)
   }
